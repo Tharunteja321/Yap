@@ -30,6 +30,8 @@ class HomeViewModel: ObservableObject {
         gradient: Gradient(colors: [.red, .orange, .yellow, .green, .blue, .purple]),
         center: .center
     )
+
+    //MARK: - Haptic Style
     enum HapticStyle {
         case light
         case medium
